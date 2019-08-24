@@ -1,0 +1,77 @@
+/* Main Stylesheet */
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    vertical-align: middle;
+    padding:10px;
+    font-size:16px;
+
+ 
+    
+    
+}
+
+.left{
+    padding-top:15px;
+
+}
+.right{
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    
+}
+
+
+#logo {
+    display: block;
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+#search-bar {
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid rgba(180,180,180, 0.4);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 582px;
+    height: 44px;
+    /* -webkit-appearance: none; */
+}
+
+#buttons{
+    display: block;
+    text-align: center;
+}
+
+#search-button{
+    margin-right:10px;
+}
+
+#lucky-button{
+    margin-left:10px;
+}
+
+.button {
+    font-size: 14px;
+    color: #5F6368;
+    background-color:#f2f2f2;
+    border: #f2f2f2;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 13px;
+  
+    
+
+}
