@@ -4,6 +4,7 @@ a:-webkit-any-link {
     color: inherit;
     cursor: pointer;
     text-decoration: none;
+    
 }
 .header{
     display: inline-block;
@@ -38,15 +39,21 @@ a:-webkit-any-link {
 }
 
 #search-bar {
+    text-align: left;
     display: block;
-    text-align: center;
+    font-size: 16px;
     border-radius: 25px;
     border: 1px solid rgba(180,180,180, 0.4);
     margin: 0 auto;
+    padding-left: 15px;
     margin-top: 20px;
-    width: 582px;
+    width: 567px;
     height: 44px;
     /* -webkit-appearance: none; */
+}
+
+#search-bar:focus{
+    outline: none;
 }
 
 #buttons{
