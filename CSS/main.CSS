@@ -3,32 +3,38 @@
 a:-webkit-any-link {
     color: inherit;
     cursor: pointer;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
+
+
+body{
+    font-family: arial,sans-serif
+}
+
+
 .header{
     display: inline-block;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
     vertical-align: middle;
     padding:10px;
-    font-size:16px;
-
- 
-    
-    
+    font-size:16px;  
 }
+
 
 .left{
     padding-top:15px;
 
 }
+
+
 .right{
     text-align: right;
     position: absolute;
     right: 0px;
     
 }
+
 
 .line{
     display:inline-block;
@@ -38,12 +44,24 @@ a:-webkit-any-link {
     color: #5f6368;
 }
 
+
+.lineright{
+    display: inline-block;
+    padding-top:10px;
+    padding-right: 25px;
+    font-size: 15px;
+    color: #5f6368;
+    text-align: right;
+    position: relative;
+    
+}
 #logo {
     display: block;
     text-align: center;
     margin-top: 140px;
 
 }
+
 
 #search-bar {
     text-align: left;
@@ -59,22 +77,27 @@ a:-webkit-any-link {
     /* -webkit-appearance: none; */
 }
 
+
 #search-bar:focus{
     outline: none;
 }
+
 
 #buttons{
     display: block;
     text-align: center;
 }
 
+
 #search-button{
     margin-right:10px;
 }
 
+
 #lucky-button{
     margin-left:10px;
 }
+
 
 #footer{
     position: fixed;
@@ -86,6 +109,7 @@ a:-webkit-any-link {
     border-top: 1px solid #e4e4e4;
 }
 
+
 #footer2{
     position: fixed;
     left: 0;
@@ -96,12 +120,14 @@ a:-webkit-any-link {
     border-top: 1px solid #e4e4e4;
 }
 
+
 #country{
     padding-top:10px;
     padding-left: 25px;
     font-size: 15px;
     color: rgba(0,0,0,.54);
 }
+
 
 .button {
     font-size: 14px;
