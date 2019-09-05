@@ -30,6 +30,13 @@ a:-webkit-any-link {
     
 }
 
+.line{
+    display:inline-block;
+    padding-top:10px;
+    padding-left: 25px;
+    font-size: 15px;
+    color: #5f6368;
+}
 
 #logo {
     display: block;
@@ -72,10 +79,28 @@ a:-webkit-any-link {
 #footer{
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 41px;
     width: 100%;
-    height: 50px;
-    background-color:rgba(0,0,0, 0.07);
+    height: 41px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+#footer2{
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 41px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+#country{
+    padding-top:10px;
+    padding-left: 25px;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
 }
 
 .button {
