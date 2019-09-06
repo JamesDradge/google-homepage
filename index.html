@@ -41,16 +41,20 @@
 
 
 <div id="search">
-    <form>
-        <input id="search-bar" type="text" autocomplete="off" name="search"> 
+    <form action="http://google.com/search" target="_blank">
+        <input id="search-bar" type="text" autocomplete="off" name="q"> 
+        <div id="buttons">
+        <input class="button" id="search-button" type="submit" value="Google Search">
+        <input class="button" id="lucky-button" type="submit" value="I'm Feeling Lucky">
+        </div>
     </form>
 </div>
 
 
 <div id="buttons">
     <form id="form">
-        <input class="button" id="search-button" type="submit" value="Google Search">
-        <input class="button" id="lucky-button" type="submit" value="I'm Feeling Lucky">
+       
+        
     </form>    
 </div>
 
@@ -73,7 +77,7 @@
 </div>
 
 
-<div class="right" id="footer2">
+<div class="right" id="footer2right">
         <div class="lineright" id="privacy">
                 <a href="#">Privacy</a>
         </div>
